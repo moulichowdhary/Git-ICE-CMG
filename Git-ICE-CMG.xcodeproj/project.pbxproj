@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		13B443001DDA469D00AF0240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B442FF1DDA469D00AF0240 /* AppDelegate.swift */; };
-		13B443021DDA469D00AF0240 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B443011DDA469D00AF0240 /* FirstViewController.swift */; };
-		13B443041DDA469D00AF0240 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B443031DDA469D00AF0240 /* SecondViewController.swift */; };
+		13B443021DDA469D00AF0240 /* EhVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B443011DDA469D00AF0240 /* EhVC.swift */; };
+		13B443041DDA469D00AF0240 /* BeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B443031DDA469D00AF0240 /* BeeVC.swift */; };
 		13B443071DDA469D00AF0240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B443051DDA469D00AF0240 /* Main.storyboard */; };
 		13B443091DDA469D00AF0240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B443081DDA469D00AF0240 /* Assets.xcassets */; };
 		13B4430C1DDA469D00AF0240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B4430A1DDA469D00AF0240 /* LaunchScreen.storyboard */; };
+		13B443141DDA496100AF0240 /* SeaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B443131DDA496100AF0240 /* SeaVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13B442FC1DDA469D00AF0240 /* Git-ICE-CMG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git-ICE-CMG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B442FF1DDA469D00AF0240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13B443011DDA469D00AF0240 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		13B443031DDA469D00AF0240 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		13B443011DDA469D00AF0240 /* EhVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhVC.swift; sourceTree = "<group>"; };
+		13B443031DDA469D00AF0240 /* BeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeVC.swift; sourceTree = "<group>"; };
 		13B443061DDA469D00AF0240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13B443081DDA469D00AF0240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13B4430B1DDA469D00AF0240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13B4430D1DDA469D00AF0240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B443131DDA496100AF0240 /* SeaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				13B442FF1DDA469D00AF0240 /* AppDelegate.swift */,
-				13B443011DDA469D00AF0240 /* FirstViewController.swift */,
-				13B443031DDA469D00AF0240 /* SecondViewController.swift */,
+				13B443011DDA469D00AF0240 /* EhVC.swift */,
+				13B443131DDA496100AF0240 /* SeaVC.swift */,
+				13B443031DDA469D00AF0240 /* BeeVC.swift */,
 				13B443051DDA469D00AF0240 /* Main.storyboard */,
 				13B443081DDA469D00AF0240 /* Assets.xcassets */,
 				13B4430A1DDA469D00AF0240 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B443041DDA469D00AF0240 /* SecondViewController.swift in Sources */,
+				13B443141DDA496100AF0240 /* SeaVC.swift in Sources */,
+				13B443041DDA469D00AF0240 /* BeeVC.swift in Sources */,
 				13B443001DDA469D00AF0240 /* AppDelegate.swift in Sources */,
-				13B443021DDA469D00AF0240 /* FirstViewController.swift in Sources */,
+				13B443021DDA469D00AF0240 /* EhVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
