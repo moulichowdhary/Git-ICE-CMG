@@ -20,6 +20,21 @@ class BeeVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var num2TF: UITextField!
 
+    @IBOutlet weak var num1TF: UITextField!
+    
+    @IBOutlet weak var resultLBL: UILabel!
+    
+    
+    @IBAction func addBTN(sender: AnyObject) {
+        
+        
+        resultLBL.text = "\(Int(num1TF.text!)!+Int(num2TF.text!)!)"
+        
+    }
+    
+    
+    
 }
 
